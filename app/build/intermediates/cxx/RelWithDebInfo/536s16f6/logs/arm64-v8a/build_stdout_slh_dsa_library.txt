@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\revel\OneDrive\Escritorio\4_Universidad\TFG2\TFG_Final\app\.cxx\RelWithDebInfo\536s16f6\arm64-v8a'
+ninja: no work to do.

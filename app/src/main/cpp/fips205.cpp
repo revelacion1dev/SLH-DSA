@@ -17,7 +17,6 @@ namespace {
 // IMPLEMENTACIONES uint128_t - SOLO UNA VEZ CADA UNA
 // ============================================================================
 
-// ✅ OPERADORES DE MULTIPLICACIÓN
 uint128_t uint128_t::operator*(const uint128_t& other) const {
     return (*this) * other.low_;
 }
@@ -45,7 +44,7 @@ uint128_t uint128_t::operator*(uint64_t rhs) const {
     return uint128_t(result_high, result_low);
 }
 
-// ✅ OPERADORES DE SHIFT
+
 uint128_t uint128_t::operator<<(int shift) const {
     if (shift >= 128 || shift < 0) return uint128_t();
     if (shift == 0) return *this;
@@ -72,7 +71,7 @@ uint128_t uint128_t::operator>>(int shift) const {
     }
 }
 
-// ✅ MÉTODOS DE CONVERSIÓN
+
 ByteVector uint128_t::toByteVector(size_t n) const {
     if (n > 16) n = 16;
 
@@ -102,7 +101,7 @@ uint128_t uint128_t::mask_96bits() const {
     return (*this) & create_96bit_mask();
 }
 
-// ✅ MÉTODOS ESTÁTICOS
+
 uint128_t uint128_t::fromByteVector(const ByteVector& bytes, size_t offset, size_t length) {
     if (bytes.size() < offset + length) {
         throw std::invalid_argument("ByteVector too small");
@@ -144,12 +143,11 @@ uint128_t uint128_t::create_96bit_mask() {
     return uint128_t(0xFFFFFFFFULL, 0xFFFFFFFFFFFFFFFFULL);
 }
 
-// ✅ OPERADOR GLOBAL - SOLO UNA VEZ
+
 uint128_t operator*(uint64_t lhs, const uint128_t& rhs) {
     return rhs * lhs;
 }
 
-// ✅ FUNCIONES HELPER - SOLO UNA VEZ CADA UNA
 uint128_t toInt128(const ByteVector& X, uint64_t n) {
     if (X.size() < n || n == 0) {
         return uint128_t();
@@ -530,7 +528,7 @@ uint32_t toInt32(const ByteVector& X, uint64_t n) {
     }
     uint32_t total = 0;
     for (size_t i = 0; i < n; ++i) {
-        // ✅ OPTIMIZACIÓN: Usar bit shifting en lugar de multiplicación
+
         total = (total << 8) | static_cast<uint32_t>(X[i]);
     }
 
@@ -676,7 +674,7 @@ uint64_t toInt64(const ByteVector& X, uint64_t n) {
 
     uint64_t total = 0;
     for (size_t i = 0; i < n; ++i) {
-        // ✅ OPTIMIZACIÓN: Usar bit shifting en lugar de multiplicación
+
         total = (total << 8) | static_cast<uint64_t>(X[i]);
     }
 
@@ -1103,21 +1101,21 @@ ByteVector ht_sign(const ByteVector& M, const ByteVector& SKseed, const ByteVect
     const uint32_t h_prima = params->h_prima;
 
     ADRS adrs;
-    adrs.setTreeAddress(idx_tree_128);  // ✅ Usar uint128_t directamente
+    adrs.setTreeAddress(idx_tree_128);
 
     ByteVector SIG_tmp = xmss_sign(M, SKseed, idx_leaf, PKseed, adrs);
     ByteVector SIG_HT = SIG_tmp;
     ByteVector root = xmss_pkFromSig(idx_leaf, SIG_tmp, M, PKseed, adrs);
 
-    // ✅ Usar operaciones uint128_t para tree traversal
+
     uint128_t current_tree = idx_tree_128;
 
     for (uint64_t j = 1; j < d; j++) {
         uint64_t idx_leaf_j = static_cast<uint64_t>(current_tree) & ((1 << h_prima) - 1);
-        current_tree = current_tree >> h_prima;  // ✅ Shift completo en uint128_t
+        current_tree = current_tree >> h_prima;
 
         adrs.setLayerAddress(j);
-        adrs.setTreeAddress(current_tree);  // ✅ Usar uint128_t directamente
+        adrs.setTreeAddress(current_tree);
 
         SIG_tmp = xmss_sign(root, SKseed, idx_leaf_j, PKseed, adrs);
         SIG_HT.insert(SIG_HT.end(), SIG_tmp.begin(), SIG_tmp.end());
@@ -1459,7 +1457,6 @@ SLH_DSA_Signature slh_sign_internal(const ByteVector& M,
     ByteVector tmp_idx_leaf(digest.begin() + leaf_idx_start,
                             digest.begin() + leaf_idx_start + leaf_idx_bytes);
 
-    // ✅ USAR toInt128_TreeAddress para tree address (96 bits máximo)
     uint128_t idx_tree_128 = toInt128_TreeAddress(tmp_idx_tree, tree_idx_bytes);
     uint128_t idx_leaf_128 = toInt128(tmp_idx_leaf, leaf_idx_bytes);
 
@@ -1467,7 +1464,7 @@ SLH_DSA_Signature slh_sign_internal(const ByteVector& M,
     idx_tree_128 = idx_tree_128 & create_tree_address_mask(tree_idx_bits);
     idx_leaf_128 = idx_leaf_128 & create_bit_mask_128(leaf_idx_bits);
 
-    // ✅ USAR uint128_t DIRECTAMENTE para tree address
+
     adrs.setTreeAddress(idx_tree_128);  // Aprovecha los 12 bytes completos
     adrs.setTypeAndClear(FORS_TREE);
 
@@ -1478,7 +1475,7 @@ SLH_DSA_Signature slh_sign_internal(const ByteVector& M,
     ByteVector SIG_FORS = fors_sign(md, privateKey.seed, privateKey.pkSeed, adrs);
     SIG.insert(SIG.end(), SIG_FORS.begin(), SIG_FORS.end());
 
-    // ✅ USAR uint128_t para ht_sign también
+
     ByteVector PK_FORS = fors_pkFromSig(SIG_FORS, md, privateKey.pkSeed, adrs);
     ByteVector SIG_HT = ht_sign(PK_FORS, privateKey.seed, privateKey.pkSeed, idx_tree_128, idx_leaf);
     SIG.insert(SIG.end(), SIG_HT.begin(), SIG_HT.end());
@@ -1548,15 +1545,15 @@ bool slh_verify_internal(const ByteVector& M, const ByteVector& SIG, const SLH_D
     ByteVector tmp_idx_leaf(digest.begin() + leaf_idx_start,
                             digest.begin() + leaf_idx_start + leaf_idx_bytes);
 
-    // ✅ USAR toInt128_TreeAddress para tree address (limitado a 96 bits)
+
     uint128_t idx_tree_128 = toInt128_TreeAddress(tmp_idx_tree, tree_idx_bytes);
     uint128_t idx_leaf_128 = toInt128(tmp_idx_leaf, leaf_idx_bytes);
 
-    // ✅ APLICAR MÁSCARAS CORRECTAS
+
     idx_tree_128 = idx_tree_128 & create_tree_address_mask(tree_idx_bits);
     idx_leaf_128 = idx_leaf_128 & create_bit_mask_128(leaf_idx_bits);
 
-    // ✅ USAR uint128_t DIRECTAMENTE
+
     adrs.setTreeAddress(idx_tree_128);  // uint128_t directamente
     adrs.setTypeAndClear(FORS_TREE);
 
@@ -1565,10 +1562,9 @@ bool slh_verify_internal(const ByteVector& M, const ByteVector& SIG, const SLH_D
 
     ByteVector PK_FORS = fors_pkFromSig(SIG_FORS, md, PK.seed, adrs);
 
-    // ✅ LLAMADA CORREGIDA: pasar uint128_t directamente
+
     return ht_verify(PK_FORS, SIG_HT, PK.seed, idx_tree_128, idx_leaf, PK.root);
-    //                ↑                         ↑
-    //                PK_FORS (correcto)        uint128_t (corregido)
+
 }
 
 // Algoritmo 21: slh_keygen

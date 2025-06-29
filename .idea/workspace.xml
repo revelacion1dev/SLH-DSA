@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@android:style/Theme.Material.Light</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="437422aa-8a80-4a9d-b665-358f8f30d221" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/aes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/asn1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/asn1_mac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/asn1err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/asn1t.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/async.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/asyncerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/bio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/bioerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/blowfish.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/bn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/bnerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/buffererr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/camellia.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/cast.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/cmac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/cmp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/cmp_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/cmperr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/cms.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/cmserr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/comp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/comperr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/conf_api.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/conferr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/configuration.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/conftypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/core.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/core_dispatch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/core_names.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/core_object.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/crmf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/crmferr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/crypto.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/cryptoerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/cryptoerr_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ct.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/cterr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/decoder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/decodererr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/des.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/dh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/dherr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/dsa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/dsaerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/dtls1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/e_os2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ebcdic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ec.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ecdh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ecdsa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ecerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/encoder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/encodererr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/engine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/engineerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ess.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/esserr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/evp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/evperr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/fips_names.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/fipskey.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/hmac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/http.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/httperr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/idea.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/kdf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/kdferr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/lhash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/md2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/md4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/md5.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/mdc2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/modes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/obj_mac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/objects.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/objectserr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ocsp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ocsperr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/opensslconf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/opensslv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ossl_typ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/param_build.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/params.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/pem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/pem2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/pemerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/pkcs12.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/pkcs12err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/pkcs7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/pkcs7err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/prov_ssl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/proverr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/provider.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/rand.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/randerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/rc2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/rc4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/rc5.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ripemd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/rsa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/rsaerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/safestack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/seed.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/self_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/sha.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/srp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/srtp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ssl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ssl2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ssl3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/sslerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/sslerr_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/stack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/store.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/storeerr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/symhacks.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/tls1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/trace.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ts.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/tserr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/txt_db.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/types.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/ui.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/uierr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/whrlpool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/x509.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/x509_vfy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/x509err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/x509v3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/include/openssl/x509v3err.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/lib/arm64-v8a/libcrypto.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/lib/arm64-v8a/libssl.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/lib/armeabi-v7a/libcrypto.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/lib/armeabi-v7a/libssl.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/lib/x86/libcrypto.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/lib/x86/libssl.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/lib/x86_64/libcrypto.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/prebuilt-openssl/lib/x86_64/libssl.a" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\revel\.android\avd\Pixel_9_2.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2yfyVDmZup2u78zKKmS8mT0zPpL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ApkExportedModule": "SLH_DSA_library.app",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/revel/OneDrive/Escritorio/4_Universidad/TFG2/TFG_Final/app/src/main/cpp"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\revel\OneDrive\Escritorio\4_Universidad\TFG2\TFG_Final\app\src\main\cpp" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.revelacion1.slh_dsa_library" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="SLH_DSA_library.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="437422aa-8a80-4a9d-b665-358f8f30d221" name="Changes" comment="" />
+      <created>1750239943671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750239943671</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.revelacion1.slh_dsa_library">
+          <value>
+            <CheckInfo lastCheckTimestamp="1750244888323" />
+          </value>
+        </entry>
+        <entry key="com.revelacion1.slh_dsa_library.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1750244888323" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,64 @@
+# compiler: R8
+# compiler_version: 8.7.14
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: f4dda25
+# pg_map_hash: SHA-256 f4dda25970210a7f1760b6f0818064581c1ed895abcea918a58d6eb37c710482
+com.revelacion1.slh_dsa_library.SLHDSA -> com.revelacion1.slh_dsa_library.SLHDSA:
+# {"id":"sourceFile","fileName":"SLHDSA.kt"}
+    com.revelacion1.slh_dsa_library.SLHDSA$Companion Companion -> Companion
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lcom/revelacion1/slh_dsa_library/SLHDSA$a;"}
+    1:1:void <clinit>():13:13 -> <clinit>
+    1:1:void <init>():9:9 -> <init>
+    1:19:com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo getCurrentSchemaInfo():83:101 -> getCurrentSchemaInfo
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Lcom/revelacion1/slh_dsa_library/SLHDSA$b;"}
+    20:36:com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo getCurrentSchemaInfo():89:105 -> getCurrentSchemaInfo
+com.revelacion1.slh_dsa_library.SLHDSA$Companion -> com.revelacion1.slh_dsa_library.SLHDSA$a:
+# {"id":"sourceFile","fileName":"SLHDSA.kt"}
+    1:1:void <init>(kotlin.jvm.internal.DefaultConstructorMarker):0:0 -> <init>
+    2:2:void <init>():11:11 -> <init>
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo -> com.revelacion1.slh_dsa_library.SLHDSA$b:
+# {"id":"sourceFile","fileName":"SLHDSA.kt"}
+    java.lang.String name -> a
+    int n -> b
+    int h -> c
+    int h_prima -> e
+    int a -> f
+    int k -> g
+    int lg_w -> h
+    int m -> i
+    int security_category -> j
+    int pk_bytes -> k
+    int sig_bytes -> l
+    boolean is_shake -> m
+    1:14:void <init>(java.lang.String,int,int,int,int,int,int,int,int,int,int,int,boolean):126:139 -> <init>
+    1:1:java.lang.String component1():0:0 -> a
+    2:2:com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo copy(java.lang.String,int,int,int,int,int,int,int,int,int,int,int,boolean):0:0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;IIIIIIIIIIIZ)Lcom/revelacion1/slh_dsa_library/SLHDSA$b;"}
+    3:3:com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo copy$default(com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo,java.lang.String,int,int,int,int,int,int,int,int,int,int,int,boolean,int,java.lang.Object):0:0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/revelacion1/slh_dsa_library/SLHDSA$b;Ljava/lang/String;IIIIIIIIIIIZILjava/lang/Object;)Lcom/revelacion1/slh_dsa_library/SLHDSA$b;"}
+    int component10() -> b
+    int component11() -> c
+    int component12() -> d
+    boolean component13() -> e
+    int component2() -> f
+    int component3() -> g
+    int component4() -> h
+    int component5() -> i
+    int component6() -> j
+    int component7() -> k
+    int component8() -> l
+    int component9() -> m
+    1:1:int getA():132:132 -> n
+    1:1:int getD():130:130 -> o
+    1:1:int getH():129:129 -> p
+    1:1:int getH_prima():131:131 -> q
+    1:1:int getK():133:133 -> r
+    1:1:int getLg_w():134:134 -> s
+    1:1:int getM():135:135 -> t
+    1:1:int getN():128:128 -> u
+    1:1:java.lang.String getName():127:127 -> v
+    1:1:int getPk_bytes():137:137 -> w
+    1:1:int getSecurity_category():136:136 -> x
+    1:1:int getSig_bytes():138:138 -> y
+    1:1:boolean is_shake():139:139 -> z

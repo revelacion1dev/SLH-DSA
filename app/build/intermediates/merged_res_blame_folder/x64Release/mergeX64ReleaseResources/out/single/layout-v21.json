@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.revelacion1.slh_dsa_library.app-x64Release-12:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.revelacion1.slh_dsa_library.app-core-1.16.0-0:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.revelacion1.slh_dsa_library.app-x64Release-12:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.revelacion1.slh_dsa_library.app-core-1.16.0-0:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.revelacion1.slh_dsa_library.app-x64Release-12:/layout-v21/notification_action.xml",
+        "source": "com.revelacion1.slh_dsa_library.app-core-1.16.0-0:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.revelacion1.slh_dsa_library.app-x64Release-12:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.revelacion1.slh_dsa_library.app-core-1.16.0-0:/layout-v21/notification_action_tombstone.xml"
+    }
+]

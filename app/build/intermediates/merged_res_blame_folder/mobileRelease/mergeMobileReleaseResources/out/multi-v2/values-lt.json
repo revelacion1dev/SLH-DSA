@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.revelacion1.slh_dsa_library.app-mergeMobileReleaseResources-10:/values-lt/values-lt.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\revel\\.gradle\\caches\\8.10.2\\transforms\\0d1f0961b25723349a363a23d3952bf5\\transformed\\core-1.16.0\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,263,362,465,576,686,806",
+                        "endColumns": "97,109,98,102,110,109,119,100",
+                        "endOffsets": "148,258,357,460,571,681,801,902"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.revelacion1.slh_dsa_library.app-mobileRelease-12:/values-lt/values-lt.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\revel\\.gradle\\caches\\8.10.2\\transforms\\0d1f0961b25723349a363a23d3952bf5\\transformed\\core-1.16.0\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,263,362,465,576,686,806",
+                        "endColumns": "97,109,98,102,110,109,119,100",
+                        "endOffsets": "148,258,357,460,571,681,801,902"
+                    }
+                }
+            ]
+        }
+    ]
+}

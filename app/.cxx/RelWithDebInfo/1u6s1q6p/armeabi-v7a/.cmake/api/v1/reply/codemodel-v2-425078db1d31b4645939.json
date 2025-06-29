@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "slh_dsa_library",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "slh_dsa_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slh_dsa_library-RelWithDebInfo-c67874294ad9372d74ef.json",
+					"name" : "slh_dsa_library",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/revel/OneDrive/Escritorio/4_Universidad/TFG2/TFG_Final/app/.cxx/RelWithDebInfo/1u6s1q6p/armeabi-v7a",
+		"source" : "C:/Users/revel/OneDrive/Escritorio/4_Universidad/TFG2/TFG_Final/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

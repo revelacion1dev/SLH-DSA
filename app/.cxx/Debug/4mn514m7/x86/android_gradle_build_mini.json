@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\revel\\OneDrive\\Escritorio\\4_Universidad\\TFG2\\TFG_Final\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\revel\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\revel\\OneDrive\\Escritorio\\4_Universidad\\TFG2\\TFG_Final\\app\\.cxx\\Debug\\4mn514m7\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\revel\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\revel\\OneDrive\\Escritorio\\4_Universidad\\TFG2\\TFG_Final\\app\\.cxx\\Debug\\4mn514m7\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "slh_dsa_library::@6890427a1f51a3e7e1df": {
+      "artifactName": "slh_dsa_library",
+      "abi": "x86",
+      "output": "C:\\Users\\revel\\OneDrive\\Escritorio\\4_Universidad\\TFG2\\TFG_Final\\app\\build\\intermediates\\cxx\\Debug\\4mn514m7\\obj\\x86\\libslh_dsa_library.so",
+      "runtimeFiles": []
+    }
+  }
+}

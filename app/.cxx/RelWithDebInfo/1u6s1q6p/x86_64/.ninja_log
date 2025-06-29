@@ -1,0 +1,8 @@
+# ninja log v5
+7	1144	7719501822899503	CMakeFiles/slh_dsa_library.dir/JNI-wrapper.cpp.o	604a9805e4567bff
+0	2635	7719501837759565	CMakeFiles/slh_dsa_library.dir/fips205.cpp.o	2579d06e7a5c60b4
+2636	2791	7719501839322446	C:/Users/revel/OneDrive/Escritorio/4_Universidad/TFG2/TFG_Final/app/build/intermediates/cxx/RelWithDebInfo/1u6s1q6p/obj/x86_64/libslh_dsa_library.so	e414c97c963e420e
+0	14	0	clean	7ebeb9ccc8f58d8d
+15	1716	7719503572205394	CMakeFiles/slh_dsa_library.dir/JNI-wrapper.cpp.o	604a9805e4567bff
+8	3406	7719503589066239	CMakeFiles/slh_dsa_library.dir/fips205.cpp.o	2579d06e7a5c60b4
+3406	3580	7719503590808337	C:/Users/revel/OneDrive/Escritorio/4_Universidad/TFG2/TFG_Final/app/build/intermediates/cxx/RelWithDebInfo/1u6s1q6p/obj/x86_64/libslh_dsa_library.so	e414c97c963e420e

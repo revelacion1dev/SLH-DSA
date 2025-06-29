@@ -1,0 +1,62 @@
+com.revelacion1.slh_dsa_library.R
+com.revelacion1.slh_dsa_library.SLHDSA$Companion
+com.revelacion1.slh_dsa_library.SLHDSA
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo
+com.revelacion1.slh_dsa_library.SLHDSA: com.revelacion1.slh_dsa_library.SLHDSA$Companion Companion
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int k
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int pk_bytes
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int a
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: boolean is_shake
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int n
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: java.lang.String name
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int lg_w
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int h_prima
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int m
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int h
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int d
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int security_category
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int sig_bytes
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int component2()
+com.revelacion1.slh_dsa_library.SLHDSA$Companion: SLHDSA$Companion(kotlin.jvm.internal.DefaultConstructorMarker)
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: SLHDSA$SchemaInfo(java.lang.String,int,int,int,int,int,int,int,int,int,int,int,boolean)
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int getLg_w()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: boolean equals(java.lang.Object)
+com.revelacion1.slh_dsa_library.SLHDSA: java.lang.Object[] getCurrentParameters()
+com.revelacion1.slh_dsa_library.SLHDSA: byte[][] slhKeyGen()
+com.revelacion1.slh_dsa_library.R: R()
+com.revelacion1.slh_dsa_library.SLHDSA: SLHDSA()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int hashCode()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int component3()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int component5()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo copy$default(com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo,java.lang.String,int,int,int,int,int,int,int,int,int,int,int,boolean,int,java.lang.Object)
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int component8()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: java.lang.String component1()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int getPk_bytes()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int getH_prima()
+com.revelacion1.slh_dsa_library.SLHDSA: com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo getCurrentSchemaInfo()
+com.revelacion1.slh_dsa_library.SLHDSA: java.lang.String getCurrentSchemaName()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int component6()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int component11()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int component4()
+com.revelacion1.slh_dsa_library.SLHDSA$Companion: SLHDSA$Companion()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int component7()
+com.revelacion1.slh_dsa_library.SLHDSA: byte[] slhSign(byte[],byte[],byte[])
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int getSig_bytes()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int getM()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int getH()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int getD()
+com.revelacion1.slh_dsa_library.SLHDSA: boolean setParameterScheme(int)
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int getN()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int component12()
+com.revelacion1.slh_dsa_library.SLHDSA: boolean slhVerify(byte[],byte[],byte[],byte[])
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: boolean component13()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: java.lang.String getName()
+com.revelacion1.slh_dsa_library.SLHDSA: boolean initializeConfig(int)
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int getK()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int getSecurity_category()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: boolean is_shake()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int getA()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo copy(java.lang.String,int,int,int,int,int,int,int,int,int,int,int,boolean)
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int component10()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: int component9()
+com.revelacion1.slh_dsa_library.SLHDSA$SchemaInfo: java.lang.String toString()

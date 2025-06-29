@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/revel/OneDrive/Escritorio/4_Universidad/TFG2/TFG_Final/app/.cxx/RelWithDebInfo/536s16f6/x86_64",
+  "command": "C:\\Users\\revel\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android26 --sysroot=C:/Users/revel/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dslh_dsa_library_EXPORTS -IC:/Users/revel/OneDrive/Escritorio/4_Universidad/TFG2/TFG_Final/app/src/main/cpp/prebuilt-openssl/include -IC:/Users/revel/OneDrive/Escritorio/4_Universidad/TFG2/TFG_Final/app/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -g -DNDEBUG -fPIC -o CMakeFiles\\slh_dsa_library.dir\\fips205.cpp.o -c C:\\Users\\revel\\OneDrive\\Escritorio\\4_Universidad\\TFG2\\TFG_Final\\app\\src\\main\\cpp\\fips205.cpp",
+  "file": "C:\\Users\\revel\\OneDrive\\Escritorio\\4_Universidad\\TFG2\\TFG_Final\\app\\src\\main\\cpp\\fips205.cpp"
+},
+{
+  "directory": "C:/Users/revel/OneDrive/Escritorio/4_Universidad/TFG2/TFG_Final/app/.cxx/RelWithDebInfo/536s16f6/x86_64",
+  "command": "C:\\Users\\revel\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android26 --sysroot=C:/Users/revel/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dslh_dsa_library_EXPORTS -IC:/Users/revel/OneDrive/Escritorio/4_Universidad/TFG2/TFG_Final/app/src/main/cpp/prebuilt-openssl/include -IC:/Users/revel/OneDrive/Escritorio/4_Universidad/TFG2/TFG_Final/app/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -g -DNDEBUG -fPIC -o CMakeFiles\\slh_dsa_library.dir\\JNI-wrapper.cpp.o -c C:\\Users\\revel\\OneDrive\\Escritorio\\4_Universidad\\TFG2\\TFG_Final\\app\\src\\main\\cpp\\JNI-wrapper.cpp",
+  "file": "C:\\Users\\revel\\OneDrive\\Escritorio\\4_Universidad\\TFG2\\TFG_Final\\app\\src\\main\\cpp\\JNI-wrapper.cpp"
+}
+]
