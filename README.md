@@ -24,7 +24,7 @@ Una librería Android nativa para firmas digitales post-cuánticas basada en el 
 
 ## 🚀 Instalación
 
-### Opción 1: AAR Universal (Recomendado)
+### Opción 1: AAR Universal 
 ```gradle
 // En tu app/build.gradle
 dependencies {
@@ -200,24 +200,4 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-## 📄 Licencia
 
-Este proyecto implementa el estándar **FIPS 205** público. Consulta el repositorio para detalles de licencia.
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el repositorio
-2. Crea una branch para tu feature
-3. Envía un Pull Request
-
-## ⚠️ Advertencias
-
-- Esta implementación está en desarrollo
-- Realiza pruebas exhaustivas antes de usar en producción
-- Los algoritmos post-cuánticos están en evolución constante
-- Mantén actualizadas las dependencias de seguridad
-
----
-
-**¿Preguntas?** Abre un issue en el repositorio: https://github.com/revelacion1dev/SLH-DSA
