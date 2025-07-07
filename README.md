@@ -191,7 +191,7 @@ class MainActivity : AppCompatActivity() {
 @misc{revelacion1dev_slh_dsa_2024,
   author       = {revelacion1dev},
   title        = {{SLH-DSA}: Stateless Hash-Based Digital Signature Algorithm Implementation},
-  year         = {2024},
+  year         = {2025},
   publisher    = {GitHub},
   journal      = {GitHub repository},
   howpublished = {\url{https://github.com/revelacion1dev/SLH-DSA}},
